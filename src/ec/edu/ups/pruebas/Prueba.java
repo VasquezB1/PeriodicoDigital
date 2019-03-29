@@ -13,17 +13,29 @@ import ec.edu.ups.clase.Noticia;
 import ec.edu.ups.clase.RedSocial;
 import ec.edu.ups.clase.Seccion;
 import java.util.Date;
+import java.util.Scanner;
+
 
 /**
- *
+ * Estructura Periodico
+ * 
+ * 
  * @author Byron
  */
 public class Prueba {
-    
+        
+      
         public static void main(String[] args){
+            System.out.println("Quieres ser mi perra?");
+            Scanner a = new Scanner(System.in);
+            if(a.hasNext("si")){
+                System.out.println("8================D");
+            }
+            else{
+                System.out.println("PERRA ASQUEORSA ASQUEROSA");
            RedSocial facebook = new RedSocial();
            facebook.setCodigo(1);
-           facebook.setNombre("Parra Asqueroso Asqueroso");
+           facebook.setNombre("Facebook");
            facebook.setUrl("www.facebook.com");  
            
            int cod = facebook.getCodigo();
@@ -93,5 +105,13 @@ public class Prueba {
             System.out.println("Nombre de Seccion: "+secci);
             
             
-        }    
+        }  
+            }
+           
+                       
+          
+      
+        
+        
+        
 }
