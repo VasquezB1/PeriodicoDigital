@@ -23,7 +23,7 @@ public class Prueba {
         public static void main(String[] args){
            RedSocial facebook = new RedSocial();
            facebook.setCodigo(1);
-           facebook.setNombre("FACEBOOK");
+           facebook.setNombre("Parra Asqueroso Asqueroso");
            facebook.setUrl("www.facebook.com");  
            
            int cod = facebook.getCodigo();
