@@ -6,8 +6,12 @@
 package ec.edu.ups.clase;
 
 /**
- *
- * @author Byron
+ *@author Byron
+ * Multimedia Periodico
+ * En esta clase estan definidas todas las variables
+ * a ocupar dentro de la noticia teniendo en esta
+ * get y set para nuestra interfaz
+ * 
  */
 public class Multimedia {
     private String formato;

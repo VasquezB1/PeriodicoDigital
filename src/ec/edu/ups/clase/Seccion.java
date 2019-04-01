@@ -7,23 +7,20 @@ package ec.edu.ups.clase;
 /**
  *
  * @author Byron
+ * Aqui se estan creando get y set para llamar a una clase dentro de 
+ * otra clase codigo por desarrollar
  */
 public class Seccion {
     private String nombreSeccion;
-    private String[] noticia;
+    private Noticia noticia[];
             
 public void setNombreSeccion(String nombreSeccion){
       this.nombreSeccion = nombreSeccion;
 }
 
-public void setNoticia(String[] noticia){
-    this.noticia = noticia;
-}
 
 public String getNombreSeccion( ){
         return this.nombreSeccion;
     }
-public String[] getNoticia(){
-    return this.noticia;
-} 
+
 }

@@ -7,6 +7,8 @@ package ec.edu.ups.clase;
 /**
  *
  * @author Byron
+ * Esta clase sirvio como apoyo y base para nuestras demas clases pues asi 
+ * pudimos darnos un avanze en todas las demas clases a crear
  */
 public class RedSocial {
 

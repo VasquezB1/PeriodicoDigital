@@ -6,8 +6,11 @@
 package ec.edu.ups.clase;
 import java.util.Date;
 /**
- *
- * @author Byron
+ *@author Byron
+ *@date 31 de Marzo del 2019
+ * En esta clase estan definidas la estrucutra principal de 
+ * nuestro periodico
+ * 
  */
 public class Noticia {
     private String titulo;

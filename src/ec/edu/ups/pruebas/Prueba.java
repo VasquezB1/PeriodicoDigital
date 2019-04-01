@@ -1,23 +1,21 @@
 package ec.edu.ups.pruebas;
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/**
+ * 
+ * Las palabras reservadas import sirven para importar las clases 
+ *         declaradas publicas de un paquete completo
+ * 
  */
-
-
 import ec.edu.ups.clase.Estructura;
 import ec.edu.ups.clase.Multimedia;
 import ec.edu.ups.clase.Noticia;
 import ec.edu.ups.clase.RedSocial;
 import ec.edu.ups.clase.Seccion;
 import java.util.Date;
-import java.util.Scanner;
 
 
 /**
- * Estructura Periodico
+ *
  * 
  * 
  * @author Byron
@@ -26,13 +24,6 @@ public class Prueba {
         
       
         public static void main(String[] args){
-            System.out.println("Quieres ser mi perra?");
-            Scanner a = new Scanner(System.in);
-            if(a.hasNext("si")){
-                System.out.println("8================D");
-            }
-            else{
-                System.out.println("PERRA ASQUEORSA ASQUEROSA");
            RedSocial facebook = new RedSocial();
            facebook.setCodigo(1);
            facebook.setNombre("Facebook");
@@ -107,11 +98,3 @@ public class Prueba {
             
         }  
             }
-           
-                       
-          
-      
-        
-        
-        
-}

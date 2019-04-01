@@ -10,6 +10,10 @@ import java.util.Date;
 /**
  *
  * @author Byron
+ * Estructura Periodico
+ * Esta estructura nos sirve para declarar las variables 
+ * que se va a obtener y dar en nuestra interfaz teniendo 
+ *           tipo de clas Date,string,string[].
  */
 public class Estructura {
     private String nombrePeriodico;
@@ -19,6 +23,12 @@ public class Estructura {
     private String encabezado;
     private String[] secciones;
     
+    
+    /**
+     * 
+     * @param nombrePeriodico 
+     * 
+     */
      public void setnombrePeriodico(String nombrePeriodico) {
         this.nombrePeriodico = nombrePeriodico;
         }
