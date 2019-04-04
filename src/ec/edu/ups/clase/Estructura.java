@@ -21,7 +21,13 @@ public class Estructura {
     private String ubicacion;
     private int portada;
     private String encabezado;
-    private String[] secciones;
+    private Seccion secciones[];
+    private String[] redSocial;
+
+    @Override
+    public String toString() {
+        return "Estructura{" + "nombrePeriodico=" + nombrePeriodico + ", fecha=" + fecha + ", ubicacion=" + ubicacion + ", portada=" + portada + ", encabezado=" + encabezado + ", secciones=" + secciones + ", redSocial=" + redSocial + '}';
+    }
     
     
     /**
@@ -49,10 +55,18 @@ public class Estructura {
          this.encabezado = encabezado;
         }
      
-     public void setSecciones(String[] secciones){
+     public void setSecciones(Seccion[] secciones){
          this.secciones = secciones;
         }
      
+     public void setRedSocial(String [] redSocial){
+         this.redSocial = redSocial;
+     }
+     
+     public String[] getredSocial( ){
+         return this.redSocial;
+     }
+          
      public String getnombrePeriodico( ){
         return this.nombrePeriodico;
         }
@@ -73,7 +87,7 @@ public class Estructura {
          return this.encabezado;
         }
      
-     public String[] getSecciones(){
+     public Seccion[] getSecciones(){
          return this.secciones;
         }
    

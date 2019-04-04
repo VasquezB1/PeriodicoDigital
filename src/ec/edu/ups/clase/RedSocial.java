@@ -17,6 +17,12 @@ public class RedSocial {
     private String url;
     private String[] publicaciones;
 
+    @Override
+    public String toString() {
+        return "RedSocial{" + "nombre=" + nombre + ", url=" + url + '}';
+    }
+    
+
     public void setCodigo(int codigo) {
         this.codigo = codigo;
     }

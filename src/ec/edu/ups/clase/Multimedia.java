@@ -5,6 +5,8 @@
  */
 package ec.edu.ups.clase;
 
+import java.util.Date;
+
 /**
  *@author Byron
  * Multimedia Periodico
@@ -15,6 +17,8 @@ package ec.edu.ups.clase;
  */
 public class Multimedia {
     private String formato;
+    private Date fechaCreacion;
+    private Date fechaModificacion;
     private double tamañoByte;
     private String path;
     private String nombreArchivo;
